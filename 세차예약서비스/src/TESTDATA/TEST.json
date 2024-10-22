@@ -1,0 +1,134 @@
+{
+  "washcenter" : [
+    {
+      "id" : "center01",
+      "name" : "이주환",
+      "weekdayTime" : [15,20],
+      "holiydayTime" : [15,20],
+      "phonenumber" : "01012345678",
+      "dayoff" : ["월"],
+      "place" : "sex",
+      "rating": "3", 
+      "currentsite" : 3
+    }],
+  "users": [
+    {
+      "id": "test",
+      "password": "test",
+      "name": "테스트",
+      "carnumber": "123테1234"
+    },
+    {
+      "id": "5368",
+      "password": "5368",
+      "name": "테스트",
+      "carnumber": "123테1234"
+    }
+  ],
+  "review": [
+    {
+      "id": "test1",
+      "user": "test",
+      "division": "단기",
+      "car": "K5",
+      "washer": "박준서",
+      "date": "23.05.16",
+      "reviewtext": "sex",
+      "rating": "4"
+    },
+    {
+      "id": "test2",
+      "user": "5368",
+      "division": "장기",
+      "car": "제네시스",
+      "washer": "이주환",
+      "date": "23.05.16",
+      "reviewtext": "sex12312123123312312312312312312312312312312312312323123123123123123123123123123",
+      "rating": "3"
+    }
+  ],
+  "reservation" :[
+    {
+      "id" : "1",
+      "washer" : "test1",
+      "division" : "단기",
+      "date" : "2023.05.16",
+      "time" : "16 : 30",
+      "requestText" : "내부청소 포함 깨끗하게 해주세요",
+      "comment" : " 내부 청소 완료및 광택 세차 했습니다."
+    },
+    {
+      "id" : "2",
+      "washer" : "test2",
+      "division" : "장기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "3",
+      "washer" : "test3",
+      "division" : "단기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "4",
+      "washer" : "test4",
+      "division" : "장기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "5",
+      "washer" : "test5",
+      "division" : "단기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "6",
+      "washer" : "test6",
+      "division" : "단기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "7",
+      "washer" : "test7",
+      "division" : "장기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "8",
+      "washer" : "test8",
+      "division" : "장기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "9",
+      "washer" : "test9",
+      "division" : "단기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "10",
+      "washer" : "test10",
+      "division" : "장기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "11",
+      "washer" : "test11",
+      "division" : "단기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "12",
+      "washer" : "test12",
+      "division" : "단기",
+      "date" : "2023.05.16"
+    },
+    {
+      "id" : "13",
+      "washer" : "test13",
+      "division" : "단기",
+      "date" : "2023.05.16"
+    }
+    
+  ]
+}

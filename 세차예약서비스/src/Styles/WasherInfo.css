@@ -1,0 +1,101 @@
+.washerImg{
+    border : 1px solid black;
+    width : 40%;
+    height : 15vh;
+    margin-right : 5%;
+    margin-bottom : 5%;
+}
+/* display 적용 */
+.washerInfo{
+    display : flex;
+}
+/* 인풋창 영역크기 */
+.washerInputDiv{
+    height : 5vh;
+}
+.washerInfoText{
+    font-size : 20px;
+}
+
+.washerInfoButton{
+    margin-bottom: 5%;
+    margin-right: 5%;
+}     
+
+.contentsborder{
+    border : 1px solid  silver;
+    width : 106%;
+    margin-left : -5%;
+    margin-bottom: 5%;
+}
+
+/* 입력폼 css */
+.washerinputText{
+    font-size: 20px;
+}
+.inputborder{
+    border : 1px solid  #70BEF7;
+}
+.carnumberinputbox{
+    margin-bottom : 5%;
+    margin-left : 4%;
+    height : 2vh;
+    margin-top:7%;
+
+}
+
+.modelinputbox{
+    margin-bottom : 5%;
+    margin-left : 17%;
+    margin-top: 7%;
+    height : 2vh;
+}
+
+.terminputbox{
+    margin-bottom : 6%;
+    margin-left : 10%;
+    margin-top: 19%;
+    height : 2vh;
+    width : 50%;
+    border : 1px solid #70BEF7;
+    text-align: center;
+}
+.terminputtext{
+    width : 25%;
+}
+.termwave{
+    margin-right: 5%;
+    margin-left: -5%;
+}
+.timeinputbox{
+    margin-bottom : 10%;
+    margin-top:19%;
+    margin-left : 15%;
+    height : 2vh;
+    width : 60%;
+    border : 1px solid #70BEF7;
+}
+/* 캘린더 모양변경 */
+.requestinputbox{
+    margin-bottom : 5%;
+    width : 95%;
+    height : 20vh;
+}
+.custom-datepicker .react-datepicker {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+}
+/* 예약 버튼 */
+.reservationbutton{
+    width : 30%;
+    height : 4.5vh;
+    background : #70BEF7;
+    border : none;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    margin-left : 66%;
+    
+}

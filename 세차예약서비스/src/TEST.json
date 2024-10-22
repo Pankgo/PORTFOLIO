@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "test",
+      "password": "test",
+      "name": "테스트1234",
+      "carnumber": "123테12345",
+      "phone": "01012341234"
+    },
+    {
+      "id": "1234",
+      "password": "1234",
+      "name": "xptmxm1234",
+      "carnumber": "123테4321",
+      "phone": "01012341234"
+    },
+    {
+      "id": "sldjfrnf",
+      "password": "sldjfrnf",
+      "name": "니얼굴",
+      "carnumber": "123니1234",
+      "phone": "01043214321"
+    }
+  ]
+}

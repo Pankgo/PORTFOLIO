@@ -1,0 +1,93 @@
+@font-face { /*프로젝트 전체에 적용할 폰트*/
+    font-family: "Galaxy";
+    src: url(./Fonts/GalaxyGamePlaysKorean.ttf);
+}
+
+p{
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+}
+
+.center{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*사진 이미지 및 텍스트*/
+.headuser{
+    width: 36px;
+    height: 35px;
+}
+.imgcss{
+    margin-top : 2%;
+    margin-right : 5%;
+    margin-left : 5%;
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+}
+.imgcontent{
+    display : flex;
+    height : 40px;
+}
+.imgtext{
+    margin-top: 10px;
+}
+.contenthead{
+    margin-top : 5%;
+    margin-left : 5%;
+}
+.backspace{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0;
+    width: 3%;
+    height: 3%;
+}
+
+
+
+
+/*관리*/
+.admin{
+    width: 320px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #70BEF7;
+    background: #FFF;
+    text-align: left;
+    
+}
+/*마이베스트*/
+.myBest{
+    width: 320px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 5%;
+    border: 1px solid #70BEF7;
+    background: #FFF;
+    margin-top: 20px;
+    text-align: left;
+}
+/*고객센터*/
+.userCenter{
+    margin-top : 4%;
+    width: 320px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #70BEF7;
+    background: #FFF;
+    text-align: left;
+}
+.logout{
+    float: right; /*버튼 오른쪽정렬*/
+
+    border: 0;
+    background-color: transparent;
+}
