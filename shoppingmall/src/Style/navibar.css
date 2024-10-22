@@ -1,0 +1,79 @@
+.selectTxt {
+    font-size : 0.7rem;
+  }
+
+.selectTxt:hover{
+  text-decoration: underline solid 1px #888888;
+}
+
+.contents{
+  display: flex;
+  align-items: center;
+  gap: 1vw; 
+  width : 19vw;
+}
+
+.contenst_right{
+  justify-content: right;
+}
+
+.HomeTxt{
+  background-image: linear-gradient(55deg, silver, black);
+  font-size : 2rem;
+  /* 텍스트만 배경을 클립 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* 모던 브라우저를 위한 백그라운드 클립 */
+  background-clip: text;
+  color: transparent;
+}
+.selectHead{
+    text-decoration-line: none;
+    color: inherit; /* 링크의 색상 제거 */
+ }
+
+.N_bar{
+    border : none;
+    height : 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  /* 드롭다운 */
+  .dropdown{
+    display : inline-block;
+  }
+  
+  .dropdown-content{
+    background-color: white;
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    width : 5vw;
+    text-align: center;
+    height : 50vh;
+    border: 1px solid silver;
+    font-size : 0.7rem;
+  }
+  
+  .dropdown-content a{
+    display : block;
+    text-decoration-line: none;
+    color : black;
+    border-bottom: 1px solid silver;
+    height : 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a:hover{
+    background-color: #DEDEDE;
+  }
